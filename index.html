@@ -524,7 +524,7 @@
             line-height: 1.5;
         }
 
-        /* SEKSI DASHBOARD LAINNYA */
+        /* DASHBOARD SECTION */
         #sectionShop, #sectionFaq, #sectionTeam {
             display: none;
             max-width: 900px;
@@ -674,13 +674,13 @@
         .item-icon-box {
             width: 64px;
             height: 64px;
-            background: #ffffff;
+            background: #1c142b;
             border: 1px solid #3b2260;
             border-radius: 14px;
             display: flex;
             justify-content: center;
             align-items: center;
-            padding: 4px;
+            padding: 6px;
             flex-shrink: 0;
             box-shadow: 0 4px 10px rgba(0,0,0,0.3);
         }
@@ -832,7 +832,7 @@
             padding-top: 14px;
         }
 
-        /* SEKSI TIM PREMIUM & ULTRA LUXURY */
+        /* TEAM SECTION */
         .team-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
@@ -1198,7 +1198,7 @@
     <div id="page-hub">
         <header class="navbar">
             <a href="javascript:void(0)" class="navbar-logo" onclick="showDashboardHome()">
-                <img id="navLogoImg" alt="Server Logo">
+                <img id="navLogoImg" alt="MineHera Logo">
             </a>
 
             <button class="menu-btn" id="menuToggle" onclick="toggleMenu()">
@@ -1545,7 +1545,7 @@
             </div>
         </div>
 
-        <!-- SEKSI FAQ ACCORDION -->
+        <!-- SEKSI FAQ -->
         <div id="sectionFaq">
             <div class="shop-header-title">
                 <div class="section-tag">HELP CENTER</div>
@@ -1576,16 +1576,6 @@
 
             <div class="faq-accordion-item">
                 <div class="faq-accordion-header" onclick="toggleFaq(this)">
-                    Berapa batas ukuran peta/world di server?
-                    <span class="faq-accordion-toggle">+</span>
-                </div>
-                <div class="faq-accordion-body">
-                    World border kami diatur sangat luas untuk mendukung eksplorasi bebas, pembuatan basis tersembunyi berjarak jutaan blok, serta pertarungan jarak jauh tanpa rasa sesak.
-                </div>
-            </div>
-
-            <div class="faq-accordion-item">
-                <div class="faq-accordion-header" onclick="toggleFaq(this)">
                     Apakah pemain Bedrock (PE/Win10/Console) bisa bergabung?
                     <span class="faq-accordion-toggle">+</span>
                 </div>
@@ -1593,73 +1583,9 @@
                     Ya, server kami mendukung cross-platform. Pemain Bedrock dapat masuk menggunakan IP `play.minehera.xyz` dan Port `19155`. Pastikan menggunakan titik (`.`) di awal username Anda.
                 </div>
             </div>
-
-            <div class="faq-group-title">TOKO, RANKS & PAYMENT</div>
-
-            <div class="faq-accordion-item">
-                <div class="faq-accordion-header" onclick="toggleFaq(this)">
-                    Apa itu Shards dan bagaimana cara menggunakannya?
-                    <span class="faq-accordion-toggle">+</span>
-                </div>
-                <div class="faq-accordion-body">
-                    Shards adalah mata uang premium di MineHera. Shards dapat digunakan untuk membeli item kosmetik, kit khusus, serta upgrade langsung di dalam game melalui toko dalam game (`/shop`).
-                </div>
-            </div>
-
-            <div class="faq-accordion-item">
-                <div class="faq-accordion-header" onclick="toggleFaq(this)">
-                    Berapa lama proses aktivasi setelah saya membayar?
-                    <span class="faq-accordion-toggle">+</span>
-                </div>
-                <div class="faq-accordion-body">
-                    Sistem otomatis kami meneruskan bukti pembayaran ke Admin via Discord Webhook. Proses verifikasi dan pengiriman item biasanya memakan waktu 5–15 menit, atau maksimal 1x24 jam.
-                </div>
-            </div>
-
-            <div class="faq-accordion-item">
-                <div class="faq-accordion-header" onclick="toggleFaq(this)">
-                    Bagaimana jika rank/shards saya tidak masuk?
-                    <span class="faq-accordion-toggle">+</span>
-                </div>
-                <div class="faq-accordion-body">
-                    Jangan khawatir! Jika dalam 1x24 jam item belum diterima, silakan bergabung ke Server Discord Resmi MineHera dan buka **Support Ticket** dengan melampirkan foto bukti transaksi.
-                </div>
-            </div>
-
-            <div class="faq-group-title">AKUN & KEAMANAN</div>
-
-            <div class="faq-accordion-item">
-                <div class="faq-accordion-header" onclick="toggleFaq(this)">
-                    Bagaimana cara mengamankan akun Minecraft saya?
-                    <span class="faq-accordion-toggle">+</span>
-                </div>
-                <div class="faq-accordion-body">
-                    Saat pertama kali login di server, daftarkan akun Anda menggunakan perintah `/register [password] [password]`. Gunakan kombinasi kata sandi yang kuat dan jangan pernah membagikannya kepada siapa pun.
-                </div>
-            </div>
-
-            <div class="faq-accordion-item">
-                <div class="faq-accordion-header" onclick="toggleFaq(this)">
-                    Bagaimana jika saya lupa kata sandi akun game saya?
-                    <span class="faq-accordion-toggle">+</span>
-                </div>
-                <div class="faq-accordion-body">
-                    Gunakan saluran **Support Ticket** di Discord resmi kami untuk mengajukan permintaaan reset password akun. Tim Staff akan melakukan verifikasi kepemilikan akun sebelum meresetnya.
-                </div>
-            </div>
-
-            <div class="faq-accordion-item">
-                <div class="faq-accordion-header" onclick="toggleFaq(this)">
-                    Apakah server menggunakan sistem Anti-Cheat?
-                    <span class="faq-accordion-toggle">+</span>
-                </div>
-                <div class="faq-accordion-body">
-                    Ya! Kami menerapkan sistem perlindungan khusus untuk mencegah ekploitasi ilegal yang dapat merusak stabilitas server atau merugikan koneksi seluruh pemain.
-                </div>
-            </div>
         </div>
 
-        <!-- SEKSI TIM MINEHERA -->
+        <!-- SEKSI TIM -->
         <div id="sectionTeam">
             <div class="shop-header-title">
                 <div class="section-tag">LEADERSHIP & CREW</div>
@@ -1667,7 +1593,6 @@
             </div>
 
             <div class="team-grid">
-                <!-- OWNER -->
                 <div class="team-card card-owner">
                     <div class="team-avatar-wrapper">
                         <div class="team-avatar-ring">
@@ -1680,11 +1605,10 @@
                         <i data-lucide="crown" style="width:14px; height:14px;"></i> Server Owner
                     </div>
                     <div class="team-lore">
-                        Pemimpin utama MineHera. Memegang kendali penuh atas manajemen puncak, visi pengembangan server, stabilitas finansial, serta arah pertumbuhan komunitas.
+                        Pemimpin utama MineHera. Memegang kendali penuh atas manajemen puncak, visi pengembangan server, dan komunitas.
                     </div>
                 </div>
 
-                <!-- DEVELOPER -->
                 <div class="team-card card-dev">
                     <div class="team-avatar-wrapper">
                         <div class="team-avatar-ring">
@@ -1697,11 +1621,10 @@
                         <i data-lucide="code-2" style="width:14px; height:14px;"></i> Lead Developer
                     </div>
                     <div class="team-lore">
-                        Arsitek teknis server. Bertanggung jawab atas kustomisasi plugin, optimasi database, keamanan backend, integrasi sistem pembayaran, dan web portal.
+                        Arsitek teknis server. Bertanggung jawab atas kustomisasi plugin, optimasi database, integrasi sistem pembayaran, dan web portal.
                     </div>
                 </div>
 
-                <!-- STAFF -->
                 <div class="team-card card-staff">
                     <div class="team-avatar-wrapper">
                         <div class="team-avatar-ring">
@@ -1714,7 +1637,7 @@
                         <i data-lucide="shield-check" style="width:14px; height:14px;"></i> Head Staff
                     </div>
                     <div class="team-lore">
-                        Garda terdepan pengayom komunitas. Bertugas menjaga ketertiban Discord, melayani tiket bantuan pemain, memoderasi game, dan membantu player baru.
+                        Garda terdepan pengayom komunitas. Bertugas menjaga ketertiban Discord, melayani tiket bantuan pemain, dan memoderasi game.
                     </div>
                 </div>
             </div>
@@ -1735,28 +1658,8 @@
                 </button>
             </div>
 
-            <div class="footer-links-title">Quick Links</div>
-            <div class="footer-links">
-                <a onclick="showDashboardHome()">Beranda</a>
-                <a onclick="showDashboardHome()" href="#about">Tentang</a>
-                <a onclick="openTeamSection()">Tim MineHera</a>
-                <a onclick="openFaqSection()">FAQ</a>
-                <a onclick="openShopSection()">Ranks & Toko</a>
-            </div>
-
-            <div class="footer-links-title">Sosial Media</div>
-            <div class="social-icons">
-                <a href="https://discord.gg/Y43puy3BSp" target="_blank" class="social-btn">
-                    <i data-lucide="message-square"></i>
-                </a>
-                <a href="#" class="social-btn">
-                    <i data-lucide="video"></i>
-                </a>
-            </div>
-
             <div class="footer-bottom">
                 <p>&copy; 2026 MineHera. All rights reserved.</p>
-                <p style="margin-top: 4px; font-size: 0.68rem; color: #4c3b63;">Not affiliated with Mojang Studios or Microsoft</p>
             </div>
         </footer>
     </div>
@@ -1777,14 +1680,6 @@
                     <div style="margin-top: 4px;">Total Bayar: <strong id="modalItemPrice" style="color:#22c55e;">-</strong></div>
                 </div>
 
-                <div class="warning-rules">
-                    <strong>⚠️ KETENTUAN PENGIRIMAN BUKTI TRANSFER:</strong><br>
-                    1. Wajib mengunggah bukti/screenshot pembayaran asli dari e-Wallet / m-Banking.<br>
-                    2. <strong>HINDARI PERILAKU MENIPU</strong>: Mengirimkan gambar tidak jelas, gambar palsu, atau bukti transfer bekas akan langsung berakibat <strong>PERMANENT BAN ACCOUNT</strong>.<br>
-                    3. Bukti pembayaran ini akan langsung dikirimkan ke Discord Admin MineHera.<br>
-                    4. Jika dalam <strong>1x24 jam</strong> item/rank belum diproses/masuk ke akun Anda, silakan buat laporan dengan cara <strong>open ticket support</strong> di Server Discord Resmi MineHera.
-                </div>
-
                 <div id="fileErrorNotice" style="display: none; color: #f43f5e; font-size: 0.75rem; font-weight: 700; margin-bottom: 10px; text-align: center;">
                     ❌ Harap pilih file foto bukti transfer terlebih dahulu!
                 </div>
@@ -1796,7 +1691,7 @@
         </div>
     </div>
 
-    <!-- MODAL CUSTOM STATUS ALERT -->
+    <!-- MODAL STATUS ALERT -->
     <div class="modal-overlay" id="statusModal">
         <div class="modal-card">
             <div class="status-modal-content">
@@ -1820,44 +1715,44 @@
         var currentPriceRaw = 0;
 
         document.addEventListener("DOMContentLoaded", function() {
-            // MENGGUNAKAN PATH RELATIF LOKAL DARI FOLDER "image" (SUPPORT VERCEL / GITHUB PAGES)
-            setImageSrc('navLogoImg', 'image/logo.png');
-            setImageSrc('stoneImg', 'image/stone.png');
-            setImageSrc('copperImg', 'image/images.png'); 
-            setImageSrc('diamondImg', 'image/diamond.png');
-            setImageSrc('amethystImg', 'image/amethys.png');
+            // MENGGUNAKAN RELATIVE PATH BANYAK KOMPATIBEL UNTUK VERCEL (Mencegah Error Broken Image)
+            setImageSrc('navLogoImg', './image/logo.png');
+            setImageSrc('stoneImg', './image/stone.png');
+            setImageSrc('copperImg', './image/images.png'); 
+            setImageSrc('diamondImg', './image/diamond.png');
+            setImageSrc('amethystImg', './image/amethys.png');
             
-            var shardUrl = 'image/shards.png';
+            var shardUrl = './image/shards.png';
             setImageSrc('shardImg1', shardUrl);
             setImageSrc('shardImg2', shardUrl);
             setImageSrc('shardImg3', shardUrl);
             setImageSrc('shardImg4', shardUrl);
 
-            // Avatar Tim tetap menggunakan API external dinamis (mc-heads)
+            // Avatar Tim dari API Minecraft
             setImageSrc('ownerAvatar', 'https://mc-heads.net/avatar/DrXuan_/80');
             setImageSrc('devAvatar', 'https://mc-heads.net/avatar/ItsMijee/80');
             setImageSrc('staffAvatar', 'https://mc-heads.net/avatar/FinzNerf/80');
 
-            // Gambar QRIS memanggil dari folder lokal
-            setImageSrc('qrisImg', 'image/qris.png');
+            // Gambar QRIS
+            setImageSrc('qrisImg', './image/qris.png');
 
             if (typeof lucide !== 'undefined') lucide.createIcons();
             checkAutoLogin();
             fetchServerStatus();
         });
 
-        /**
-         * @param {string} elementId
-         * @param {string} url
-         */
         function setImageSrc(elementId, url) {
             var el = document.getElementById(elementId);
-            if (el && el instanceof HTMLImageElement) el.src = url;
+            if (el && el instanceof HTMLImageElement) {
+                el.src = url;
+                // Fallback jika file lokal tidak ditemukan di Vercel
+                el.onerror = function() {
+                    if (elementId === 'stoneImg') el.src = 'https://minecraft.wiki/images/Stone.png';
+                    if (elementId === 'navLogoImg') el.src = 'https://mc-heads.net/avatar/DrXuan_/80';
+                };
+            }
         }
 
-        /**
-         * @param {HTMLElement} element
-         */
         function toggleFaq(element) {
             var item = element.parentElement;
             if (!item) return;
@@ -1887,9 +1782,6 @@
             }
         }
 
-        /**
-         * @param {string} platformType
-         */
         function switchPlatform(platformType) {
             selectedPlatform = platformType;
             var btnJava = document.getElementById('btnJava');
@@ -1942,10 +1834,6 @@
             showHubScreen(usernameInput, selectedPlatform);
         }
 
-        /**
-         * @param {string} username
-         * @param {string} platform
-         */
         function showHubScreen(username, platform) {
             var elUser = document.getElementById('displayUser');
             var elPlat = document.getElementById('displayPlatform');
@@ -2023,9 +1911,6 @@
             if(menu) menu.classList.toggle('active');
         }
 
-        /**
-         * @param {string} category
-         */
         function switchShopCategory(category) {
             var tabRanks = document.getElementById('tabRanks');
             var tabShards = document.getElementById('tabShards');
@@ -2084,10 +1969,6 @@
             }
         }
 
-        /**
-         * @param {string} title
-         * @param {number} price
-         */
         function openPayment(title, price) {
             currentPriceRaw = price;
             var username = localStorage.getItem('savedUsername') || '-';
@@ -2118,11 +1999,6 @@
             if(notice) notice.style.display = 'none';
         }
 
-        /**
-         * @param {string} type
-         * @param {string} title
-         * @param {string} message
-         */
         function showStatusModal(type, title, message) {
             var modal = document.getElementById('statusModal');
             var iconBox = document.getElementById('statusIconContainer');
@@ -2188,7 +2064,6 @@
 
             var payload = {
                 username: "MineHera Payment Bot",
-                // Avatar webhook Discord mutlak membutuhkan link absolute public CDN agar muncul. Kita biarkan menggunakan CDN.
                 avatar_url: "https://cdn.discordapp.com/attachments/1499481645756055582/1546838729984053299/20260818_120544.png",
                 embeds: [{
                     title: "🛒 TRANSAKSI MINEHERA STORE BARU!",
@@ -2216,12 +2091,12 @@
                 });
 
                 if (response.ok) {
-                    showStatusModal('success', 'Transaksi Terkirim!', 'Bukti pembayaran telah berhasil dikirim. Item kamu akan masuk maksimal dalam 1x24 jam.');
+                    showStatusModal('success', 'Transaksi Terkirim!', 'Bukti pembayaran telah berhasil dikirim.');
                 } else {
-                    showStatusModal('error', 'Gagal Mengirim', 'Terjadi kesalahan sistem saat mengirim bukti. Silakan hubungi staff di Discord.');
+                    showStatusModal('error', 'Gagal Mengirim', 'Terjadi kesalahan sistem saat mengirim bukti.');
                 }
             } catch (error) {
-                showStatusModal('error', 'Koneksi Error', 'Gagal terhubung ke jaringan Discord. Pastikan internetmu stabil lalu coba lagi.');
+                showStatusModal('error', 'Koneksi Error', 'Gagal terhubung ke jaringan Discord.');
             }
         }
     </script>
